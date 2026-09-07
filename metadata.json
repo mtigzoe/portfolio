@@ -1,0 +1,6 @@
+{
+  "name": "Miriam Lozneanu - Software Engineer",
+  "description": "Personal website and engineering blog of Miriam Lozneanu, DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

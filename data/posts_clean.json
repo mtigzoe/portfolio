@@ -1,0 +1,374 @@
+[
+  {
+    "id": "49",
+    "title": "Testing my Application",
+    "slug": "testing-my-application",
+    "aliases": [],
+    "date": "2022-04-08T00:14:56+00:00",
+    "formattedDate": "April 8, 2022",
+    "categories": [
+      "Testing & QA",
+      "Python",
+      "Accessibility"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "When I started to build a simple calculator app with a few features, I was able to test it without using automation. Once I added many more features to it, it was difficult to test all the features on my own. Using pytes...",
+    "contentHtml": "<p>When I started to build a simple calculator app with a few features, I was able to test it without using automation. Once I added many more features to it, it was difficult to test all the features on my own. Using pytest benefits my app, because it  finds small bugs. Fixtures with random numbers are useful to some specific modes, such as real numbers or statistics. I don’t think that random numbers are helpful to test derivatives and integrals, so I have to choose a specific derivative.</p>\n<p>Not testing my calculator app has resulted in a big fatal crash or can cause a large problem. Time, costs and features should be considered.</p>\n<p>When I tried patchmonkey using pytest on my calculator application, it didn’t work, because the functions with user selections didn’t have any return value. It’s best for me to test my app on my own.</p>\n<p>I think automated tests can help reduce bugs and are important for my app; however, it’s a good idea to take my time to test my app without using automation.</p>",
+    "plainText": "When I started to build a simple calculator app with a few features, I was able to test it without using automation. Once I added many more features to it, it was difficult to test all the features on my own. Using pytest benefits my app, because it finds small bugs. Fixtures with random numbers are useful to some specific modes, such as real numbers or statistics. I don’t think that random numbers are helpful to test derivatives and integrals, so I have to choose a specific derivative. Not testing my calculator app has resulted in a big fatal crash or can cause a large problem. Time, costs and features should be considered. When I tried patchmonkey using pytest on my calculator application, it didn’t work, because the functions with user selections didn’t have any return value. It’s best for me to test my app on my own. I think automated tests can help reduce bugs and are important for my app; however, it’s a good idea to take my time to test my app without using automation.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/04/08/testing-my-application/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "40",
+    "title": "Crucial Communications",
+    "slug": "crucial-communications",
+    "aliases": [],
+    "date": "2022-03-30T02:08:13+00:00",
+    "formattedDate": "March 30, 2022",
+    "categories": [
+      "Career & Mentorship",
+      "SQL",
+      "Communication"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "A couple of years ago, my intern supervisor assigned a project but didn’t give many details. I analyzed it to try to figure out what my supervisor wanted and expected. I asked questions; however, he didn’t give much info...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">A couple of years ago, my intern supervisor assigned a project but didn’t give many details. I analyzed it to try to figure out what my supervisor wanted and expected. I asked questions; however, he didn’t give much information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This project description didn’t denote that I needed to retrieve data from a database. The contract only provided the information about utilizing Python and SQL. I chose to use Python MySQL and researched SQL queries. Tutorials I read explained that I may need to select and retrieve  items from the company database. </p>\n\n\n\n<p class=\"wp-block-paragraph\">I sent my ideas for the steps necessary to complete the assignment to my supervisor several times, requesting his input. The first and second versions of my ideas didn’t contain writing to a .csv file and retrieving data. I had incorrectly used the word “collect” instead of “retrieve”. After I spent time researching SQL queries while coding, I realized that my supervisor wanted me to print data to .csv file using a select query.   </p>\n\n\n\n<p class=\"wp-block-paragraph\">I added additional details to my steps to complete the project to include the information concerning opening a file, writing to a file, retrieving data, and then closing a file. Finally, my supervisor stated that this was what he wanted.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because my supervisor didn’t give many details for completing the assigned project, I had the opportunity to practice communicating effectively with him. He also taught me to implement a responsible role in researching and owning the project. </p>",
+    "plainText": "A couple of years ago, my intern supervisor assigned a project but didn’t give many details. I analyzed it to try to figure out what my supervisor wanted and expected. I asked questions; however, he didn’t give much information. This project description didn’t denote that I needed to retrieve data from a database. The contract only provided the information about utilizing Python and SQL. I chose to use Python MySQL and researched SQL queries. Tutorials I read explained that I may need to select and retrieve items from the company database. I sent my ideas for the steps necessary to complete the assignment to my supervisor several times, requesting his input. The first and second versions of my ideas didn’t contain writing to a .csv file and retrieving data. I had incorrectly used the word “collect” instead of “retrieve”. After I spent time researching SQL queries while coding, I realized that my supervisor wanted me to print data to .csv file using a select query. I added additional details to my steps to complete the project to include the information concerning opening a file, writing to a file, retrieving data, and then closing a file. Finally, my supervisor stated that this was what he wanted. Because my supervisor didn’t give many details for completing the assigned project, I had the opportunity to practice communicating effectively with him. He also taught me to implement a responsible role in researching and owning the project.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/03/30/crucial-communications/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "36",
+    "title": "Defining Features",
+    "slug": "defining-features",
+    "aliases": [],
+    "date": "2022-03-30T01:41:32+00:00",
+    "formattedDate": "March 30, 2022",
+    "categories": [
+      "Software Engineering",
+      "Agile",
+      "GitHub"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I usually created issues and opened them on my GitHub. For example, one of my issues was “Backend: As a user, I can see an equation and a result after typing a script.” Issues are considered as user stories. The acceptan...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I usually created issues and opened them on my GitHub. For example, one of my issues was “Backend: As a user, I can see an equation and a result after typing a script.” Issues are considered as user stories. The acceptance criteria for this user story is to successfully print a result and equation in Python when I get it done. I can set to “done” on this issue and close it. </p>",
+    "plainText": "I usually created issues and opened them on my GitHub. For example, one of my issues was “Backend: As a user, I can see an equation and a result after typing a script.” Issues are considered as user stories. The acceptance criteria for this user story is to successfully print a result and equation in Python when I get it done. I can set to “done” on this issue and close it.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/03/30/defining-features/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "31",
+    "title": "Learning Process",
+    "slug": "learning-process",
+    "aliases": [],
+    "date": "2022-03-22T12:55:00+00:00",
+    "formattedDate": "March 22, 2022",
+    "categories": [
+      "Accessibility",
+      "Assistive Tech",
+      "Learning"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "I am a deaf and blind computer programmer and my learning process is different from a sighted person. Therefore, I must take more time to learn new concepts. When reading codes, I usually read one line at a time using my...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I am a deaf and blind computer programmer and my learning process is different from a sighted person. Therefore, I must take more time to learn new concepts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">When reading codes, I usually read one line at a time using my Braille display. Because i cannot quickly look back at them,  I have to memorize them while reading through files. If an error message occurs, I must try to remember where codes are located and then fix them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I use Google, GitHub, Slackoverflow, and blogs to help me solve problems. Using my screen reader hotkeys allows me to navigate websites easier. </p>\n\n\n\n<p class=\"wp-block-paragraph\">When I research online and find helpful resources, I copy and paste the links to a text file  so that I can use them later. Additionally, copying code samples from tutorials helps me understand them better when I’m learning a new computer language.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If I am stuck and am not able to find a solution, I will get away from my computer for a moment. I attempt to find a way to solve it. I am usually able to figure it out. </p>\n\n\n\n<p class=\"wp-block-paragraph\">My mentors provide brief explanations when I am presented with new materials.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I am motivated to succeed  and have persevered to reach my computer programming career goals.</p>",
+    "plainText": "I am a deaf and blind computer programmer and my learning process is different from a sighted person. Therefore, I must take more time to learn new concepts. When reading codes, I usually read one line at a time using my Braille display. Because i cannot quickly look back at them, I have to memorize them while reading through files. If an error message occurs, I must try to remember where codes are located and then fix them. I use Google, GitHub, Slackoverflow, and blogs to help me solve problems. Using my screen reader hotkeys allows me to navigate websites easier. When I research online and find helpful resources, I copy and paste the links to a text file so that I can use them later. Additionally, copying code samples from tutorials helps me understand them better when I’m learning a new computer language. If I am stuck and am not able to find a solution, I will get away from my computer for a moment. I attempt to find a way to solve it. I am usually able to figure it out. My mentors provide brief explanations when I am presented with new materials. I am motivated to succeed and have persevered to reach my computer programming career goals.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/03/22/learning-process/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "25",
+    "title": "Accessibility on Pair Programming",
+    "slug": "accessibility-on-pair-programming",
+    "aliases": [],
+    "date": "2022-03-11T13:28:46+00:00",
+    "formattedDate": "March 11, 2022",
+    "categories": [
+      "Accessibility",
+      "Pair Programming",
+      "Braille"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I use my screen reader and refreshable Braille display to access all information on my computer. Accessing Code Wars website was frustrating, because it’s not fully accessible. My screen reader wasn’t able to access some...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I use my screen reader and refreshable Braille display to access all information on my computer. Accessing Code Wars website was frustrating, because it’s not fully accessible. My screen reader wasn’t able to access someone’s screen to read his or her codes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fortunately, I found a solution that I was able to access Live Share in Visual Studio Code and I was happy with it. Google Codeweb also works for me.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Pair programming is helpful, because we enjoy working together while trying to solve a problem. Getting some ideas from people can help me figure out how to fix a bug.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I hope Code Wars should fix accessibility issues for blind computer programmers, so that they can effectively improve their coding skills.</p>",
+    "plainText": "I use my screen reader and refreshable Braille display to access all information on my computer. Accessing Code Wars website was frustrating, because it’s not fully accessible. My screen reader wasn’t able to access someone’s screen to read his or her codes. Fortunately, I found a solution that I was able to access Live Share in Visual Studio Code and I was happy with it. Google Codeweb also works for me. Pair programming is helpful, because we enjoy working together while trying to solve a problem. Getting some ideas from people can help me figure out how to fix a bug. I hope Code Wars should fix accessibility issues for blind computer programmers, so that they can effectively improve their coding skills.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/03/11/accessibility-on-pair-programming/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "22",
+    "title": "Making My Plans",
+    "slug": "making-my-plans",
+    "aliases": [],
+    "date": "2022-03-07T13:50:31+00:00",
+    "formattedDate": "March 7, 2022",
+    "categories": [
+      "Software Engineering",
+      "Python",
+      "Architecture"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "I chose to focus on backend for my calculator application. I was amazed that Python is powerful enough to calculate using many functions; therefore, I don’t need to specifically set up many small functions. For example, ...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I chose to focus on backend for my calculator application. I was amazed that Python is powerful enough to calculate using many functions; therefore, I don’t need to specifically set up many small functions. For example, import math has plenty of functions. When I type “math.cos(30), it gives the result.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once I complete the backend part, I will plan to start with the frontend part and build a simple webpage with a lot of buttons.</p>\n\n\n\n<p class=\"wp-block-paragraph\"> I spent 40 hours per week working on backend, because I wanted to make sure that the calculations are correct as well as I imported math libraries in Python.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Backend allows me to debug and fix errors easily rather going back and forth between backend and frontend.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I plan to use Flask and Vue.js to build a webpage for frontend. I plan to spend a little less than 40 hours per week to complete the part on time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Creating issues on GitHub helps me prepare and complete tasks, because my calculator application has many options.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I plan to complete the backend part by March 13 and the frontend part by May 1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I definitely am using a lot of effort working on my umbrella project and plan to complete it on time. It’s very challenging, but it’s a lot of fun. </p>",
+    "plainText": "I chose to focus on backend for my calculator application. I was amazed that Python is powerful enough to calculate using many functions; therefore, I don’t need to specifically set up many small functions. For example, import math has plenty of functions. When I type “math.cos(30), it gives the result. Once I complete the backend part, I will plan to start with the frontend part and build a simple webpage with a lot of buttons. I spent 40 hours per week working on backend, because I wanted to make sure that the calculations are correct as well as I imported math libraries in Python. Backend allows me to debug and fix errors easily rather going back and forth between backend and frontend. I plan to use Flask and Vue.js to build a webpage for frontend. I plan to spend a little less than 40 hours per week to complete the part on time. Creating issues on GitHub helps me prepare and complete tasks, because my calculator application has many options. I plan to complete the backend part by March 13 and the frontend part by May 1. I definitely am using a lot of effort working on my umbrella project and plan to complete it on time. It’s very challenging, but it’s a lot of fun.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/03/07/making-my-plans/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "19",
+    "title": "Art to Software Engineering",
+    "slug": "art-to-software-engineering",
+    "aliases": [
+      "19"
+    ],
+    "date": "2022-02-25T21:31:11+00:00",
+    "formattedDate": "February 25, 2022",
+    "categories": [
+      "Personal Story",
+      "Art & Tech",
+      "Accessibility"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "I enjoyed pencil drawing as a child and on through college age. I had enough vision at that time. I was determined to create an accurate image as an artist, because I enjoyed perfecting the details in my work. Focusing o...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I enjoyed pencil drawing as a child and on through college age. I had enough vision at that time. </p>\n\n\n\n<p class=\"wp-block-paragraph\">I was determined to create an accurate image as an artist, because I enjoyed perfecting the details in my work. Focusing on 3D and grayscale were my favorite areas of pencil drawing. Granted, a large illustration would take many hours to finish but I was persistent. If I made a mistake while drawing, I would find a creative way to hide it by working it into the final piece making it more beautiful than if it had been perfectly drawn.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another enjoyable aspect of drawing was thinking critically studying and analyzing the principles of art, such as proportion, movement or rhythm.   </p>\n\n\n\n<p class=\"wp-block-paragraph\">Comparing creating art to software engineering, in each, I start from scratch and turn my thought processes to the idea for the project. Both have standards that should be included and yet have a place where creativity allows for new details to be injected into the application or final piece of art.  Unlike drawing, when I find a bug in my application, I have to do some research until I find a way to completely get rid of the error in the coding. <br /></p>",
+    "plainText": "I enjoyed pencil drawing as a child and on through college age. I had enough vision at that time. I was determined to create an accurate image as an artist, because I enjoyed perfecting the details in my work. Focusing on 3D and grayscale were my favorite areas of pencil drawing. Granted, a large illustration would take many hours to finish but I was persistent. If I made a mistake while drawing, I would find a creative way to hide it by working it into the final piece making it more beautiful than if it had been perfectly drawn. Another enjoyable aspect of drawing was thinking critically studying and analyzing the principles of art, such as proportion, movement or rhythm. Comparing creating art to software engineering, in each, I start from scratch and turn my thought processes to the idea for the project. Both have standards that should be included and yet have a place where creativity allows for new details to be injected into the application or final piece of art. Unlike drawing, when I find a bug in my application, I have to do some research until I find a way to completely get rid of the error in the coding.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/02/25/19/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "18",
+    "title": "What programming languages have you chosen for your Umbrella Project?",
+    "slug": "what-programming-languages-have-you-chosen-for-your-umbrella-project",
+    "aliases": [],
+    "date": "2022-02-24T21:53:44+00:00",
+    "formattedDate": "February 24, 2022",
+    "categories": [
+      "Web Development",
+      "Python",
+      "Vue.js"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I have chosen Python, Flask, and Vue.js for my umbrella project. Python has a plethora of math libraries, and I will use their calculus formulas. I’ve chosen Flask and Vue.js which will allow me to build a web applicatio...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I have chosen Python, Flask, and Vue.js for my umbrella project. Python has a plethora of math libraries, and I will use their calculus formulas. I’ve chosen Flask and Vue.js which will allow me to build a web application. These computer languages are great for building my calculator application. </p>",
+    "plainText": "I have chosen Python, Flask, and Vue.js for my umbrella project. Python has a plethora of math libraries, and I will use their calculus formulas. I’ve chosen Flask and Vue.js which will allow me to build a web application. These computer languages are great for building my calculator application.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/02/24/what-programming-languages-have-you-chosen-for-your-umbrella-project/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "17",
+    "title": "Apprenticeship with Host Company",
+    "slug": "apprenticeship-with-host-company",
+    "aliases": [],
+    "date": "2022-02-14T20:57:17+00:00",
+    "formattedDate": "February 14, 2022",
+    "categories": [
+      "Career & Mentorship",
+      "Apprenticeship",
+      "Community"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I am apprenticing with my host company, Worthwhile through the Develop Carolina program since January 2022. I have had a great experience with Worthwhile. My assigned mentor is very knowledgeable and helpful that I recei...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I am apprenticing with my host company, Worthwhile through the Develop Carolina program since January 2022.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I have had a great experience with Worthwhile. My assigned mentor is very knowledgeable and helpful that I received a lot of information. She told me about React and Vue.js. Vue.js is recommended for my umbrella project. I plan to use it to build my web app with Python and Flask.  </p>\n\n\n\n<p class=\"wp-block-paragraph\">I chatted with her via Google Chat three times a week. I specifically asked questions that I’ve been having pertaining to the SC Codes curriculum. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Additionally, I have looked through a project in GitLab and tried to get familiar with it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I hope gaining new experience and contributing to a real project is beneficial. I’m excited to see that I’ll have a lot of knowledgeable with Vue.js as well as from the SC Codes curriculum.</p>",
+    "plainText": "I am apprenticing with my host company, Worthwhile through the Develop Carolina program since January 2022. I have had a great experience with Worthwhile. My assigned mentor is very knowledgeable and helpful that I received a lot of information. She told me about React and Vue.js. Vue.js is recommended for my umbrella project. I plan to use it to build my web app with Python and Flask. I chatted with her via Google Chat three times a week. I specifically asked questions that I’ve been having pertaining to the SC Codes curriculum. Additionally, I have looked through a project in GitLab and tried to get familiar with it. I hope gaining new experience and contributing to a real project is beneficial. I’m excited to see that I’ll have a lot of knowledgeable with Vue.js as well as from the SC Codes curriculum.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/02/14/apprenticeship-with-host-company/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "16",
+    "title": "Work From Home",
+    "slug": "work-from-home",
+    "aliases": [],
+    "date": "2022-02-11T21:11:35+00:00",
+    "formattedDate": "February 11, 2022",
+    "categories": [
+      "Remote Work",
+      "Productivity",
+      "Daily Routine"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "I work from 8am to 5pm every day, Monday to Friday. My computer is powered off every night, so that it is ready for the next day. When working remotely, I use my refreshable Braille display and JAWS to access all the inf...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I work from 8am to 5pm every day, Monday to Friday. My computer is powered off every night, so that it is ready for the next day.  </p>\n\n\n\n<p class=\"wp-block-paragraph\">When working remotely, I use my refreshable Braille display and JAWS to access all the information on my computer. When I research and look for tutorials to help me solve a problem on my projects, I usually record the links for my resources, so that I can review them later. Microsoft Visual Studio is my favorite text editor and typing commands in PowerShell works well for me.</p>\n\n\n\n<p class=\"wp-block-paragraph\">During my lunch break, I go away from my computer and prepare my mail. I enjoy taking a walk for exercise and rest before I return to my computer. If I get tired and need to take a short break, I get a healthy snack, drink some water and stretch. </p>\n\n\n\n<p class=\"wp-block-paragraph\">When I come upon a difficult part of my project, I think and research on the internet until I get good ideas to try to solve the problem. Also, checking Slack and emails helps me refresh my mind while taking a break from my project.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It’s important for me to maintain my mental health as I continue to focus on my work. I enjoy working as a developer from home.    </p>",
+    "plainText": "I work from 8am to 5pm every day, Monday to Friday. My computer is powered off every night, so that it is ready for the next day. When working remotely, I use my refreshable Braille display and JAWS to access all the information on my computer. When I research and look for tutorials to help me solve a problem on my projects, I usually record the links for my resources, so that I can review them later. Microsoft Visual Studio is my favorite text editor and typing commands in PowerShell works well for me. During my lunch break, I go away from my computer and prepare my mail. I enjoy taking a walk for exercise and rest before I return to my computer. If I get tired and need to take a short break, I get a healthy snack, drink some water and stretch. When I come upon a difficult part of my project, I think and research on the internet until I get good ideas to try to solve the problem. Also, checking Slack and emails helps me refresh my mind while taking a break from my project. It’s important for me to maintain my mental health as I continue to focus on my work. I enjoy working as a developer from home.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/02/11/work-from-home/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "15",
+    "title": "Grow Up with the Internet",
+    "slug": "grow-up-with-the-internet",
+    "aliases": [],
+    "date": "2022-02-11T13:40:29+00:00",
+    "formattedDate": "February 11, 2022",
+    "categories": [
+      "Technology",
+      "Reflections",
+      "History"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I was introduced to Google for the first time when I was in the 3rd grade. My teacher taught me how to use it to look at images for an assignment. However, I didn’t use the internet much until I started middle school. Si...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I was introduced to Google for the first time when I was in the 3rd grade. My teacher taught me how to use it to look at images for an assignment. However, I didn’t use the internet much until I started middle school. Since then much of my schooling has been completed utilizing it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Reading books online is a favorite hobby of mine. Using MSN Dictionary on the internet has helped me a lot as I came across new words while reading. I also frequently check my emails, and research on the internet. My keyboarding skills continued improving. </p>\n\n\n\n<p class=\"wp-block-paragraph\">I can’t imagine how I would live without the internet! God has blessed me by allowing me to live at a time and in a place where I have  the technology for the visually impaired to access massive amounts of information.</p>",
+    "plainText": "I was introduced to Google for the first time when I was in the 3rd grade. My teacher taught me how to use it to look at images for an assignment. However, I didn’t use the internet much until I started middle school. Since then much of my schooling has been completed utilizing it. Reading books online is a favorite hobby of mine. Using MSN Dictionary on the internet has helped me a lot as I came across new words while reading. I also frequently check my emails, and research on the internet. My keyboarding skills continued improving. I can’t imagine how I would live without the internet! God has blessed me by allowing me to live at a time and in a place where I have the technology for the visually impaired to access massive amounts of information.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/02/11/grow-up-with-the-internet/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "14",
+    "title": "Umbrella Project",
+    "slug": "umbrella-project",
+    "aliases": [],
+    "date": "2022-02-07T17:06:37+00:00",
+    "formattedDate": "February 7, 2022",
+    "categories": [
+      "Accessibility",
+      "Calculus & Math",
+      "Projects"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I have been thinking about developing the accessible ti-89 calculator web app for visually impaired and blind students who take calculus classes. I am very motivated to help them succeed. I found that Orbit Research has ...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">I have been thinking about developing the accessible ti-89 calculator web app for visually impaired and blind students who take calculus classes. I am very motivated to help them succeed. </p>\n\n\n\n<p class=\"wp-block-paragraph\">I found that Orbit Research has the physical ti-84 graphing calculator, but it does not include the software. </p>\n\n\n\n<p class=\"wp-block-paragraph\">I chose to use Flask and Vue to develop the web app and to copy features from a regular ti-89 calculator. Features on the web app should be accessible and readable. Viewing a graphing calculator will need to have a high contrast.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The web app for the ti-89 calculator should be user-friendly, accessible and inexpensive, so that schools can purchase it for their visually impaired and blind students. I am excited to see that students will be successful as they use the app to enhance their education.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I am looking forward to developing it! </p>",
+    "plainText": "I have been thinking about developing the accessible ti-89 calculator web app for visually impaired and blind students who take calculus classes. I am very motivated to help them succeed. I found that Orbit Research has the physical ti-84 graphing calculator, but it does not include the software. I chose to use Flask and Vue to develop the web app and to copy features from a regular ti-89 calculator. Features on the web app should be accessible and readable. Viewing a graphing calculator will need to have a high contrast. The web app for the ti-89 calculator should be user-friendly, accessible and inexpensive, so that schools can purchase it for their visually impaired and blind students. I am excited to see that students will be successful as they use the app to enhance their education. I am looking forward to developing it!",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/02/07/umbrella-project/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "13",
+    "title": "Encouragement",
+    "slug": "encouragement",
+    "aliases": [],
+    "date": "2022-01-29T04:17:09+00:00",
+    "formattedDate": "January 29, 2022",
+    "categories": [
+      "Reflections",
+      "Advocacy",
+      "Personal Journey"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "Dear Future Miriam, I am thinking about making a series of YouTube videos on a regular basis outlining my life as a DeafBlind person. Do you think that people would be interested? Yes, indeed! I definitely agree with you...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">Dear Future Miriam,</p>\n\n\n\n<p class=\"wp-block-paragraph\">I am thinking about making a series of YouTube videos on a regular basis outlining my life as a DeafBlind person. Do you think that </p>\n\n\n\n<p class=\"wp-block-paragraph\">people would be interested? Yes, indeed! </p>\n\n\n\n<p class=\"wp-block-paragraph\">I definitely agree with you! I am so excited about that. It would be great for people to know the fabulous quality of life I live as a DeafBlind person. I’ll show them the ways God has provided for me to successfully manage all the details of daily living. They’ll be fascinated by the technology I use to access information and communication on the internet.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I plan to share my accomplishments regarding developing my software applications when I work as a software developer. I feel confident that i will work hard and help improve people’s lives. Caring about others is important to me.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I will be helpful to others one day via this series. Thank you for reading this look back at my future plans to enhance the lives of others.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sincerely,</p>\n\n\n\n<p class=\"wp-block-paragraph\">Miriam Lozneanu </p>",
+    "plainText": "Dear Future Miriam, I am thinking about making a series of YouTube videos on a regular basis outlining my life as a DeafBlind person. Do you think that people would be interested? Yes, indeed! I definitely agree with you! I am so excited about that. It would be great for people to know the fabulous quality of life I live as a DeafBlind person. I’ll show them the ways God has provided for me to successfully manage all the details of daily living. They’ll be fascinated by the technology I use to access information and communication on the internet. I plan to share my accomplishments regarding developing my software applications when I work as a software developer. I feel confident that i will work hard and help improve people’s lives. Caring about others is important to me. I will be helpful to others one day via this series. Thank you for reading this look back at my future plans to enhance the lives of others. Sincerely, Miriam Lozneanu",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/01/29/encouragement/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "12",
+    "title": "Product Lifecycle",
+    "slug": "product-lifecycle",
+    "aliases": [],
+    "date": "2022-01-29T03:57:34+00:00",
+    "formattedDate": "January 29, 2022",
+    "categories": [
+      "Product Management",
+      "Software Lifecycle",
+      "Learning"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "After two-hour lecture, I would like to share what I learned about the topics in Product Lifecycle. Five topics include Product Market Fit, stages of a company, product lifecycle stages, inter-team coordination and intra...",
+    "contentHtml": "<p class=\"wp-block-paragraph\">After two-hour lecture, I would like to share what I learned about the topics in Product Lifecycle. Five topics include Product Market Fit, stages of a company, product lifecycle stages, inter-team coordination and intra-team coordination.       </p>\n\n\n\n<p class=\"wp-block-paragraph\">Product Market Fit</p>\n\n\n\n<p class=\"wp-block-paragraph\">A product satisfies a strong market demand.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Stages of a Company</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company has progressive goals as its goals are to find market fit.</p>\n\n\n\n<ol class=\"wp-block-list\"><li>Start – A startup company searches for Product Market Fit.</li><li>Scale – a growth stage company finds the Product Market Fit and scales it.</li><li>Sustain – An enterprise company seeks to sustain the success of the product market fit.</li><li>Shifts – Enterprise company-corporate innovation looks for a new one.</li></ol>\n\n\n\n<p class=\"wp-block-paragraph\">Product Lifecycle Stages</p>\n\n\n\n<p class=\"wp-block-paragraph\">New Product is to create the first version of the product.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Growth is to scale and sustain a product.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Product Expansion is to keep the product stable and flexible.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Harvesting is to ensure ease of use and keep risk low.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Inter-team Coordination</p>\n\n\n\n<p class=\"wp-block-paragraph\">Product teams connect to stakeholders. Teams have agreements to work together.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Intra-team Coordination</p>\n\n\n\n<p class=\"wp-block-paragraph\">Intra-team coordination is a product team that works with a product manager, a product designer, a lead engineer, and data analyst.   </p>\n\n\n\n<p class=\"wp-block-paragraph\">When I learn more about the product lifecycle, I will be able to understand the goals of my company. It allows me to work effectively with my team. Product Lifecycle is definitely the important concept that helps me succeed with my company.    </p>",
+    "plainText": "After two-hour lecture, I would like to share what I learned about the topics in Product Lifecycle. Five topics include Product Market Fit, stages of a company, product lifecycle stages, inter-team coordination and intra-team coordination. Product Market Fit A product satisfies a strong market demand. Stages of a Company The company has progressive goals as its goals are to find market fit. Start – A startup company searches for Product Market Fit. Scale – a growth stage company finds the Product Market Fit and scales it. Sustain – An enterprise company seeks to sustain the success of the product market fit. Shifts – Enterprise company-corporate innovation looks for a new one. Product Lifecycle Stages New Product is to create the first version of the product. Growth is to scale and sustain a product. Product Expansion is to keep the product stable and flexible. Harvesting is to ensure ease of use and keep risk low. Inter-team Coordination Product teams connect to stakeholders. Teams have agreements to work together. Intra-team Coordination Intra-team coordination is a product team that works with a product manager, a product designer, a lead engineer, and data analyst. When I learn more about the product lifecycle, I will be able to understand the goals of my company. It allows me to work effectively with my team. Product Lifecycle is definitely the important concept that helps me succeed with my company.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/01/29/product-lifecycle/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "11",
+    "title": "Challenges in Developing a YouTube Transcript Web Application",
+    "slug": "challenges-youtube-transcript",
+    "aliases": [
+      "11"
+    ],
+    "date": "2022-01-28T16:37:48+00:00",
+    "formattedDate": "January 28, 2022",
+    "categories": [
+      "Projects",
+      "Python & Flask",
+      "Debugging"
+    ],
+    "readingTime": "2 min read",
+    "excerpt": "Challenges My goal was to develop a web application for retrieving a transcript from YouTube. I had been struggling with it for a few weeks so I researched using the libraries in Python. Once I found youtube-transcript-a...",
+    "contentHtml": "\n\n\n\n<p class=\"wp-block-paragraph\">My goal was to develop a web application for retrieving a transcript from YouTube. I had been struggling with it for a few weeks so I researched using the libraries in Python. Once I found youtube-transcript-api and pafy, I did a lot of trial and error until I successfully retrieved a transcript. The HTML form that I attempted to create was challenging because I had to figure out how to copy and paste a YouTube URL in the text field and submit it by using the Flask’s request function. After that, it successfully printed to the HTML page and Flask’s request function worked properly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Heroku allowed me to deploy my web application and publish it. Now people are able to view and try it.  </p>\n\n\n\n<p class=\"wp-block-paragraph\">Unfortunately, YouTube introduced a new dislike count feature in November 2021. This caused my web application on Heroku to malfunction. I researched and found the issue with pafy while opening and looking at their module’s file. The pafy module had issues with dislike counts in YouTube that prevented me from retrieving a transcript. After commenting out “self._dislikes = self._ydl_info[‘dislike_count’]” on line 54 in backend_youtube_dl.py, I am now able to retrieve a transcript from YouTube and run my program to retrieve a transcript in a local environment. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Deploying my program to Heroku from Github does currently have problematic issues, though. I haven’t had success allowing other  people to view my program online and retrieve a transcript for themselves. I will continue working on correcting these issues until they are resolved.</p>",
+    "plainText": "My goal was to develop a web application for retrieving a transcript from YouTube. I had been struggling with it for a few weeks so I researched using the libraries in Python. Once I found youtube-transcript-api and pafy, I did a lot of trial and error until I successfully retrieved a transcript. The HTML form that I attempted to create was challenging because I had to figure out how to copy and paste a YouTube URL in the text field and submit it by using the Flask’s request function. After that, it successfully printed to the HTML page and Flask’s request function worked properly. Heroku allowed me to deploy my web application and publish it. Now people are able to view and try it. Unfortunately, YouTube introduced a new dislike count feature in November 2021. This caused my web application on Heroku to malfunction. I researched and found the issue with pafy while opening and looking at their module’s file. The pafy module had issues with dislike counts in YouTube that prevented me from retrieving a transcript. After commenting out “self._dislikes = self._ydl_info[‘dislike_count’]” on line 54 in backend_youtube_dl.py, I am now able to retrieve a transcript from YouTube and run my program to retrieve a transcript in a local environment. Deploying my program to Heroku from Github does currently have problematic issues, though. I haven’t had success allowing other people to view my program online and retrieve a transcript for themselves. I will continue working on correcting these issues until they are resolved.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/01/28/11/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  },
+  {
+    "id": "5",
+    "title": "About Me",
+    "slug": "about-me",
+    "aliases": [],
+    "date": "2022-01-17T04:25:08+00:00",
+    "formattedDate": "January 17, 2022",
+    "categories": [
+      "About Miriam",
+      "Accessibility",
+      "Assistive Tech"
+    ],
+    "readingTime": "1 min read",
+    "excerpt": "I am a deaf and blind computer programmer and use my refreshable Braille display to read and access all information online. It is like a keyboard and allows me to be successful in writing programs. I am motivated to help...",
+    "contentHtml": "<p class=\"wp-block-paragraph\"><strong>I am a deaf and blind computer programmer and use my refreshable Braille display to read and access all information online. It is like a keyboard and allows me to be successful in writing programs.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>I am motivated to help people with disabilities to improve their lives. I persevere in finding a solution and develop software applications because I have a lot of knowledge about disabilities and understand how disabled persons struggle in their lives.   </strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>One of my current favorite projects is one using Python Flask and youtube-transcript-api to develop a website application that extracts transcripts from YouTube. This way I can read the transcript of a video rather than attempt to access closed captions using my Braille display. </strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>I am very interested in developing a mobile application can be replaced with a software remote for driverless cars  that would be user-friendly and accessible to everyone regardless of disability. </strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>I enjoy looking ahead to when I and others will create new applications making more of life’s day to day activities easier by being accessible for everyone! Thank you for reading my blog post.</strong></p>",
+    "plainText": "I am a deaf and blind computer programmer and use my refreshable Braille display to read and access all information online. It is like a keyboard and allows me to be successful in writing programs. I am motivated to help people with disabilities to improve their lives. I persevere in finding a solution and develop software applications because I have a lot of knowledge about disabilities and understand how disabled persons struggle in their lives. One of my current favorite projects is one using Python Flask and youtube-transcript-api to develop a website application that extracts transcripts from YouTube. This way I can read the transcript of a video rather than attempt to access closed captions using my Braille display. I am very interested in developing a mobile application can be replaced with a software remote for driverless cars that would be user-friendly and accessible to everyone regardless of disability. I enjoy looking ahead to when I and others will create new applications making more of life’s day to day activities easier by being accessible for everyone! Thank you for reading my blog post.",
+    "originalUrl": "https://miriamsoftwareengineer.code.blog/2022/01/17/about-me/",
+    "author": {
+      "name": "Miriam Lozneanu",
+      "role": "DeafBlind Software Engineer",
+      "bio": "Software engineer passionate about accessibility, Python, and creating technology accessible to everyone."
+    }
+  }
+]

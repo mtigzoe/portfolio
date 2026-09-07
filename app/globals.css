@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid #f59e0b;
+    outline-offset: 2px;
+  }
+}
+
+/* Custom high-contrast theme overrides */
+.high-contrast-theme {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0);
+  color: rgb(255 255 255);
+}
+
+.high-contrast-theme a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.high-contrast-theme button,
+.high-contrast-theme input,
+.high-contrast-theme select {
+  border-color: rgb(255 255 255) !important;
+}
+
+/* Prose typography styling for blog posts */
+.article-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.article-content p:last-child {
+  margin-bottom: 0;
+}
+
+.article-content strong {
+  font-weight: 700;
+}
+
+.article-content blockquote {
+  border-left: 3px solid #d97706;
+  padding-left: 1.25rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+}

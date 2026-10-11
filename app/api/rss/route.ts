@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { BLOG_POSTS } from '@/lib/postsData';
 
+export const dynamic = 'force-static';
+
 export async function GET() {
   const siteUrl = 'https://miriamsoftwareengineer.code.blog';
   const feedItems = BLOG_POSTS.map((post) => {
@@ -38,3 +40,4 @@ export async function GET() {
     },
   });
 }
+

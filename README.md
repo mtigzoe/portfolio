@@ -72,8 +72,11 @@ git push -u origin main
 ## Local Development
 
 ```bash
-# 1. Install dependencies
-npm install
+# Use Node.js 24 (also used by GitHub Actions).
+# If using nvm: nvm install && nvm use
+
+# 1. Install the exact committed dependencies
+npm ci
 
 # 2. Run the development server
 npm run dev
@@ -83,6 +86,23 @@ npm run dev
 ```
 
 ---
+
+## Dependency maintenance
+
+Use Node.js 24 for local development. Node.js 25 is not the supported project runtime.
+The committed `package-lock.json` makes local and CI installations reproducible.
+Run `npm audit` to inspect advisories and `npm run build` after dependency updates.
+Next.js remains on version 15 with matching ESLint configuration. A scoped PostCSS
+override selects the patched version for Next.js as well as the CSS build.
+The ESLint 9 toolchain still emits an upstream deprecation warning; migrating to
+ESLint 10 requires a separate compatibility review.
+Avoid `npm audit fix --force`, which can introduce breaking upgrades.
+At this update, the full audit reports five high findings in the development-only
+ESLint dependency chain, all rooted in the unpatched `braces` advisory
+GHSA-vfj7-8cjw-p6xm. `npm audit --omit=dev` reports zero vulnerabilities.
+
+This public static website has no login system and does not need Firebase tools or
+a Gemini API key. Those unused dependencies have been removed.
 
 ## How to Add New Blog Posts
 
@@ -111,3 +131,4 @@ Your content goes here!
 
 - Content & Articles &copy; Miriam Lozneanu
 - Migrated from [miriamsoftwareengineer.code.blog](https://miriamsoftwareengineer.code.blog/)
+

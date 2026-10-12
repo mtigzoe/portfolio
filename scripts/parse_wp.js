@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { redactAuthor } = require('./redact_author');
 
 const feed = fs.readFileSync('feed.xml', 'utf-8');
 
@@ -37,7 +38,7 @@ while ((match = itemRegex.exec(feed)) !== null) {
   const categories = [];
   let cm;
   while ((cm = catRegex.exec(itemContent)) !== null) {
-    categories.push(cleanEntities(cm[1]));
+    categories.push(redactAuthor(cleanEntities(cm[1]), creator));
   }
 
   const cleanLink = link.trim();
@@ -52,15 +53,15 @@ while ((match = itemRegex.exec(feed)) !== null) {
 
   items.push({
     id: slug,
-    title: cleanEntities(title),
+    title: redactAuthor(cleanEntities(title), creator),
     originalUrl: '',
     slug: slug,
     date: parsedDate.toISOString(),
     formattedDate: parsedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
     author: 'Author',
     categories: categories.length > 0 ? categories : ['Software Engineering'],
-    summary: cleanEntities(cleanDesc).replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author'),
-    content: cleanEntities(content).replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author'),
+    summary: redactAuthor(cleanEntities(cleanDesc), creator),
+    content: redactAuthor(cleanEntities(content), creator),
   });
 }
 

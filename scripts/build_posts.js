@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { redactAuthor } = require('./redact_author');
 
 const raw = JSON.parse(fs.readFileSync('wp_posts_raw.json', 'utf-8'));
 
@@ -50,7 +51,8 @@ const categoryMapping = {
 };
 
 const processed = raw.posts.map(post => {
-  let title = decodeHtml(post.title).trim();
+  const authorName = post.author?.name || '';
+  let title = redactAuthor(decodeHtml(post.title), authorName).trim();
   let slug = post.slug;
   const aliases = [];
 
@@ -65,9 +67,8 @@ const processed = raw.posts.map(post => {
   }
 
   // Raw HTML content cleanup
-  let cleanContent = decodeHtml(post.content)
+  let cleanContent = redactAuthor(decodeHtml(post.content), authorName)
     .replace(/<p class="wp-block-paragraph">\s*<\/p>/g, '')
-    .replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author')
     .trim();
 
   // If post 11, remove duplicate "Challenges" header paragraph if present
@@ -76,7 +77,7 @@ const processed = raw.posts.map(post => {
   }
 
   const plainText = stripHtml(cleanContent);
-  const excerpt = stripHtml((post.excerpt || cleanContent).replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author')).substring(0, 220) + '...';
+  const excerpt = stripHtml(redactAuthor(post.excerpt || cleanContent, authorName)).substring(0, 220) + '...';
   const readingTime = calculateReadingTime(plainText);
   const categories = categoryMapping[post.slug] || categoryMapping[slug] || ['Engineering'];
 
@@ -111,7 +112,7 @@ const processed = raw.posts.map(post => {
 // Sort chronologically descending (newest first)
 processed.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-const tsFileContent = `// All 16 migrated blog posts from https://miriamsoftwareengineer.code.blog/
+const tsFileContent = `// Migrated blog posts from the configured WordPress source
 export interface BlogPost {
   id: string;
   title: string;

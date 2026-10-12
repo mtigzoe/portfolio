@@ -17,8 +17,15 @@ function fetch(url) {
 }
 
 async function run() {
+  const site = process.env.WORDPRESS_SITE;
+  if (!site) {
+    console.error('Set WORDPRESS_SITE to the source WordPress hostname before importing.');
+    process.exitCode = 1;
+    return;
+  }
+  const apiBase = `https://public-api.wordpress.com/rest/v1.1/sites/${encodeURIComponent(site)}`;
   try {
-    const postsRaw = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/miriamsoftwareengineer.code.blog/posts?number=100');
+    const postsRaw = await fetch(`${apiBase}/posts?number=100`);
     fs.writeFileSync('wp_posts_raw.json', postsRaw);
     const postsJson = JSON.parse(postsRaw);
     console.log('Posts found:', postsJson.found, 'Received:', postsJson.posts?.length);
@@ -27,7 +34,7 @@ async function run() {
   }
 
   try {
-    const pagesRaw = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/miriamsoftwareengineer.code.blog/pages?number=100');
+    const pagesRaw = await fetch(`${apiBase}/pages?number=100`);
     fs.writeFileSync('wp_pages_raw.json', pagesRaw);
     const pagesJson = JSON.parse(pagesRaw);
     console.log('Pages found:', pagesJson.found, 'Received:', pagesJson.pages?.length);
@@ -36,7 +43,7 @@ async function run() {
   }
 
   try {
-    const siteRaw = await fetch('https://public-api.wordpress.com/rest/v1.1/sites/miriamsoftwareengineer.code.blog');
+    const siteRaw = await fetch(`${apiBase}`);
     fs.writeFileSync('wp_site_raw.json', siteRaw);
     const siteJson = JSON.parse(siteRaw);
     console.log('Site name:', siteJson.name);

@@ -6,8 +6,8 @@ slug: "making-my-plans"
 aliases: []
 categories: ["Software Engineering", "Python", "Architecture"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/03/07/making-my-plans/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I chose to focus on backend for my calculator application. I was amazed that Python is powerful enough to calculate using many functions; therefore, I don’t need to specifically set up many small functions. For example, ..."
 ---
 

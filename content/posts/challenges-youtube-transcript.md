@@ -6,8 +6,8 @@ slug: "challenges-youtube-transcript"
 aliases: ["11"]
 categories: ["Projects", "Python & Flask", "Debugging"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/01/28/11/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "Challenges My goal was to develop a web application for retrieving a transcript from YouTube. I had been struggling with it for a few weeks so I researched using the libraries in Python. Once I found youtube-transcript-a..."
 ---
 

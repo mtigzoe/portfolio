@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: 'Engineering Projects',
   description:
-    'Key software projects engineered by Miriam, including the Accessible TI-89 Calculator, YouTube Transcript Extractor, and Autonomous Vehicle Interface concepts.',
+    'Software engineering projects, including the Accessible TI-89 Calculator, YouTube Transcript Extractor, and Autonomous Vehicle Interface concepts.',
 };
 
 export default function ProjectsPage() {
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
           Projects &amp; Technical Initiatives
         </h1>
         <p className="text-base sm:text-lg text-stone-600 dark:text-zinc-400 max-w-3xl mt-2">
-          These projects showcase Miriam’s journey as a DeafBlind software engineer, focusing
+          These projects showcase my journey as a DeafBlind software engineer, focusing
           on accessible tooling, Python backend services, math calculation engines, and assistive
           hardware integration.
         </p>
@@ -196,7 +196,7 @@ export default function ProjectsPage() {
               {/* Related Blog Posts */}
               <div className="pt-2 border-t border-stone-100 dark:border-zinc-800">
                 <h3 className="text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-zinc-400 mb-3 flex items-center gap-1.5">
-                  <BookOpen className="w-4 h-4" /> Related Blog Posts from Miriam:
+                  <BookOpen className="w-4 h-4" /> Related Blog Posts:
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {proj.relatedPostSlugs.map((rp) => (

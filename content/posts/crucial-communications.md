@@ -6,8 +6,8 @@ slug: "crucial-communications"
 aliases: []
 categories: ["Career & Mentorship", "SQL", "Communication"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/03/30/crucial-communications/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "A couple of years ago, my intern supervisor assigned a project but didn’t give many details. I analyzed it to try to figure out what my supervisor wanted and expected. I asked questions; however, he didn’t give much info..."
 ---
 

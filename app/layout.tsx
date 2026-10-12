@@ -6,13 +6,12 @@ import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Miriam Lozneanu – Software Engineer',
-    template: '%s | Miriam Lozneanu',
+    default: 'Software Engineering Blog',
+    template: '%s | Software Engineering Blog',
   },
   description:
-    'Personal website and engineering blog of Miriam Lozneanu, DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.',
+    'Engineering blog by a DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.',
   keywords: [
-    'Miriam Lozneanu',
     'DeafBlind software engineer',
     'Accessibility',
     'Python',
@@ -21,21 +20,19 @@ export const metadata: Metadata = {
     'pytest',
     'Flask',
   ],
-  authors: [{ name: 'Miriam Lozneanu', url: 'https://miriamsoftwareengineer.code.blog/' }],
-  creator: 'Miriam Lozneanu',
   openGraph: {
-    title: 'Miriam Lozneanu – Software Engineer',
+    title: 'Software Engineering Blog',
     description:
-      'Personal website and engineering blog of Miriam Lozneanu, DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.',
+      'Engineering blog by a DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'Miriam Lozneanu',
+    siteName: 'Software Engineering Blog',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Miriam Lozneanu – Software Engineer',
+    title: 'Software Engineering Blog',
     description:
-      'Personal website and engineering blog of Miriam Lozneanu, DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.',
+      'Engineering blog by a DeafBlind software engineer sharing posts on accessibility, Python, testing, and assistive technology.',
   },
 };
 

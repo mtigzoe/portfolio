@@ -6,8 +6,8 @@ slug: "work-from-home"
 aliases: []
 categories: ["Remote Work", "Productivity", "Daily Routine"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/02/11/work-from-home/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I work from 8am to 5pm every day, Monday to Friday. My computer is powered off every night, so that it is ready for the next day. When working remotely, I use my refreshable Braille display and JAWS to access all the inf..."
 ---
 

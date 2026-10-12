@@ -46,7 +46,7 @@ const categoryMapping = {
   'encouragement': ['Reflections', 'Advocacy', 'Personal Journey'],
   'product-lifecycle': ['Product Management', 'Software Lifecycle', 'Learning'],
   '11': ['Projects', 'Python & Flask', 'Debugging'],
-  'about-me': ['About Miriam', 'Accessibility', 'Assistive Tech'],
+  'about-me': ['About Me', 'Accessibility', 'Assistive Tech'],
 };
 
 const processed = raw.posts.map(post => {
@@ -67,6 +67,7 @@ const processed = raw.posts.map(post => {
   // Raw HTML content cleanup
   let cleanContent = decodeHtml(post.content)
     .replace(/<p class="wp-block-paragraph">\s*<\/p>/g, '')
+    .replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author')
     .trim();
 
   // If post 11, remove duplicate "Challenges" header paragraph if present
@@ -75,7 +76,7 @@ const processed = raw.posts.map(post => {
   }
 
   const plainText = stripHtml(cleanContent);
-  const excerpt = stripHtml(post.excerpt || cleanContent).substring(0, 220) + '...';
+  const excerpt = stripHtml((post.excerpt || cleanContent).replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author')).substring(0, 220) + '...';
   const readingTime = calculateReadingTime(plainText);
   const categories = categoryMapping[post.slug] || categoryMapping[slug] || ['Engineering'];
 
@@ -98,9 +99,9 @@ const processed = raw.posts.map(post => {
     excerpt,
     contentHtml: cleanContent,
     plainText,
-    originalUrl: post.URL,
+    originalUrl: '',
     author: {
-      name: 'Miriam Lozneanu',
+      name: 'Author',
       role: 'DeafBlind Software Engineer',
       bio: 'Software engineer passionate about accessibility, Python, and creating technology accessible to everyone.'
     }

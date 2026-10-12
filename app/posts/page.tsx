@@ -2,7 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import { getAllPosts, getAllCategories } from '@/lib/postsData';
 import { BlogListWithFilter } from '@/components/BlogListWithFilter';
-import { BookOpen, ExternalLink, Rss } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'All Blog Posts (16)',
@@ -29,30 +29,10 @@ export default function PostsPage() {
             </h1>
             <p className="text-base sm:text-lg text-stone-600 dark:text-zinc-400 max-w-2xl">
               Chronological collection of engineering reflections, accessibility insights, and
-              software projects migrated from{' '}
-              <a
-                href="https://miriamsoftwareengineer.code.blog/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-700 dark:text-amber-400 underline underline-offset-2 hover:opacity-80 inline-flex items-center gap-1 font-medium"
-              >
-                miriamsoftwareengineer.code.blog
-                <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-              </a>
-              .
+              software projects.
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
-            <a
-              href="/api/rss"
-              className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg border border-stone-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-xs font-semibold text-stone-700 dark:text-zinc-300 hover:text-amber-600 dark:hover:text-amber-400 transition-colors shadow-xs"
-              title="Subscribe via RSS"
-            >
-              <Rss className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-              <span>RSS Feed</span>
-            </a>
-          </div>
         </div>
       </div>
 

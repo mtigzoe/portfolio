@@ -24,7 +24,6 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/about', label: 'About Miriam' },
     { href: '/', label: 'Blog Posts (16)' },
     { href: '/projects', label: 'Projects' },
   ];

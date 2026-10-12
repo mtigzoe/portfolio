@@ -4,7 +4,6 @@ import { getAllPosts, getAllCategories } from '@/lib/postsData';
 import { BlogListWithFilter } from '@/components/BlogListWithFilter';
 import {
   Code2,
-  Terminal,
   Calculator,
   Youtube,
   Car,
@@ -73,7 +72,7 @@ export default function HomePage() {
                 miriamsoftwareengineer.code.blog
                 <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
               </a>
-              ), with full search, responsive reading tools, and a clear GitHub setup guide.
+              ), with full search and responsive reading tools.
             </p>
           </div>
 
@@ -92,13 +91,6 @@ export default function HomePage() {
             >
               <FolderGit2 className="w-4 h-4" aria-hidden="true" />
               <span>Explore Projects</span>
-            </Link>
-            <Link
-              href="/github-guide"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-amber-300 dark:border-amber-700 bg-amber-50/80 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 font-semibold text-sm hover:bg-amber-100 transition-colors"
-            >
-              <Terminal className="w-4 h-4" aria-hidden="true" />
-              <span>GitHub Repo Setup</span>
             </Link>
           </div>
         </div>

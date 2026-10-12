@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ExternalLink, Rss, Github, Heart, Code2 } from 'lucide-react';
+import { ExternalLink, Rss, Heart, Code2 } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -61,11 +61,6 @@ export function Footer() {
                   About Miriam & Setup
                 </Link>
               </li>
-              <li>
-                <Link href="/github-guide" className="hover:text-stone-900 dark:hover:text-white transition-colors">
-                  GitHub Setup Guide
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -94,15 +89,6 @@ export function Footer() {
                   <Rss className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" aria-hidden="true" />
                   RSS Feed (XML)
                 </a>
-              </li>
-              <li>
-                <Link
-                  href="/github-guide"
-                  className="flex items-center gap-1.5 hover:text-stone-900 dark:hover:text-white transition-colors"
-                >
-                  <Github className="w-3.5 h-3.5" aria-hidden="true" />
-                  GitHub Repository Setup
-                </Link>
               </li>
             </ul>
           </div>

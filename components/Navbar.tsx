@@ -24,14 +24,13 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/posts', label: 'Blog Posts (16)' },
-    { href: '/projects', label: 'Projects' },
+    { href: '/', label: 'Blog Posts (16)' },
     { href: '/about', label: 'About Miriam' },
+    { href: '/projects', label: 'Projects' },
   ];
 
   const isActive = (href: string) => {
-    if (href === '/') return pathname === '/';
+    if (href === '/') return pathname === '/' || pathname.startsWith('/posts');
     return pathname.startsWith(href);
   };
 
@@ -76,7 +75,7 @@ export function Navbar() {
             <Link
               href="/"
               className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-stone-500 rounded-lg p-1"
-              aria-label="Miriam Lozneanu, Home"
+              aria-label="Miriam Lozneanu, Blog Posts"
             >
               <div className="w-11 h-11 rounded-lg bg-stone-900 text-stone-100 flex flex-col items-center justify-center font-mono text-xs font-bold border border-stone-700 shadow-xs group-hover:scale-105 transition-transform">
                 <span>ML</span>

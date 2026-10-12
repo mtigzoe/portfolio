@@ -6,8 +6,8 @@ slug: "testing-my-application"
 aliases: []
 categories: ["Testing & QA", "Python", "Accessibility"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/04/08/testing-my-application/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "When I started to build a simple calculator app with a few features, I was able to test it without using automation. Once I added many more features to it, it was difficult to test all the features on my own. Using pytes..."
 ---
 

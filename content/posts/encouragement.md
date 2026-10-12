@@ -6,12 +6,12 @@ slug: "encouragement"
 aliases: []
 categories: ["Reflections", "Advocacy", "Personal Journey"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/01/29/encouragement/"
-author: "Miriam Lozneanu"
-excerpt: "Dear Future Miriam, I am thinking about making a series of YouTube videos on a regular basis outlining my life as a DeafBlind person. Do you think that people would be interested? Yes, indeed! I definitely agree with you..."
+originalUrl: ""
+author: "Author"
+excerpt: "Dear Future Self, I am thinking about making a series of YouTube videos on a regular basis outlining my life as a DeafBlind person. Do you think that people would be interested? Yes, indeed! I definitely agree with you..."
 ---
 
-Dear Future Miriam,
+Dear Future Self,
 
 
 
@@ -53,4 +53,4 @@ Sincerely,
 
 
 
-Miriam Lozneanu
+Author

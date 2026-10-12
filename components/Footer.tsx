@@ -15,10 +15,10 @@ export function Footer() {
           <div className="md:col-span-2 space-y-3">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded bg-stone-900 text-stone-100 flex items-center justify-center font-mono text-xs font-bold">
-                ML
+                SE
               </div>
               <span className="font-serif font-bold text-lg text-stone-900 dark:text-zinc-100">
-                Miriam
+                Software Engineering Blog
               </span>
             </div>
             <p className="text-sm text-stone-600 dark:text-zinc-400 leading-relaxed max-w-md">
@@ -26,12 +26,6 @@ export function Footer() {
               advocating for assistive technology. All 16 original WordPress posts preserved and
               migrated to Next.js.
             </p>
-            <div className="pt-1 text-xs text-stone-500 dark:text-zinc-500 flex items-center gap-2">
-              <span className="font-mono bg-stone-200 dark:bg-zinc-800 px-2 py-0.5 rounded text-amber-700 dark:text-amber-400 font-bold">
-                ⠍⠊⠗⠊⠁⠍
-              </span>
-              <span>&ldquo;Miriam&rdquo; in English Grade 1 Braille</span>
-            </div>
           </div>
 
           {/* Column 2: Quick Links */}
@@ -58,7 +52,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-stone-200 dark:border-zinc-800 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 dark:text-zinc-500 gap-4">
           <p>
-            &copy; {new Date().getFullYear()} Miriam 
+            &copy; {new Date().getFullYear()} Software Engineering Blog 
           </p>
           <p className="flex items-center gap-1.5">
             <span>Accessible by design</span>

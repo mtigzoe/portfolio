@@ -53,14 +53,14 @@ while ((match = itemRegex.exec(feed)) !== null) {
   items.push({
     id: slug,
     title: cleanEntities(title),
-    originalUrl: cleanLink,
+    originalUrl: '',
     slug: slug,
     date: parsedDate.toISOString(),
     formattedDate: parsedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
-    author: 'Miriam Lozneanu',
+    author: 'Author',
     categories: categories.length > 0 ? categories : ['Software Engineering'],
-    summary: cleanEntities(cleanDesc),
-    content: cleanEntities(content),
+    summary: cleanEntities(cleanDesc).replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author'),
+    content: cleanEntities(content).replace(/Miriam Lozneanu|\\bMiriam\\b/g, 'Author'),
   });
 }
 

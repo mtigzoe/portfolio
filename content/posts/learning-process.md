@@ -6,8 +6,8 @@ slug: "learning-process"
 aliases: []
 categories: ["Accessibility", "Assistive Tech", "Learning"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/03/22/learning-process/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I am a deaf and blind computer programmer and my learning process is different from a sighted person. Therefore, I must take more time to learn new concepts. When reading codes, I usually read one line at a time using my..."
 ---
 

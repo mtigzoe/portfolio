@@ -6,8 +6,8 @@ slug: "defining-features"
 aliases: []
 categories: ["Software Engineering", "Agile", "GitHub"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/03/30/defining-features/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I usually created issues and opened them on my GitHub. For example, one of my issues was “Backend: As a user, I can see an equation and a result after typing a script.” Issues are considered as user stories. The acceptan..."
 ---
 

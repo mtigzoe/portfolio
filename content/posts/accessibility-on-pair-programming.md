@@ -6,8 +6,8 @@ slug: "accessibility-on-pair-programming"
 aliases: []
 categories: ["Accessibility", "Pair Programming", "Braille"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/03/11/accessibility-on-pair-programming/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I use my screen reader and refreshable Braille display to access all information on my computer. Accessing Code Wars website was frustrating, because it’s not fully accessible. My screen reader wasn’t able to access some..."
 ---
 

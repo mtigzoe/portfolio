@@ -6,8 +6,8 @@ slug: "umbrella-project"
 aliases: []
 categories: ["Accessibility", "Calculus & Math", "Projects"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/02/07/umbrella-project/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I have been thinking about developing the accessible ti-89 calculator web app for visually impaired and blind students who take calculus classes. I am very motivated to help them succeed. I found that Orbit Research has ..."
 ---
 

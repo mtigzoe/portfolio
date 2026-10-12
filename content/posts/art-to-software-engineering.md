@@ -6,8 +6,8 @@ slug: "art-to-software-engineering"
 aliases: ["19"]
 categories: ["Personal Story", "Art & Tech", "Accessibility"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/02/25/19/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I enjoyed pencil drawing as a child and on through college age. I had enough vision at that time. I was determined to create an accurate image as an artist, because I enjoyed perfecting the details in my work. Focusing o..."
 ---
 

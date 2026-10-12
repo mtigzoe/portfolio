@@ -1,8 +1,8 @@
 # Personal Website & Engineering Blog
 
-Welcome to the personal website and technical engineering blog of **Miriam**, a DeafBlind software engineer passionate about accessibility, Python development, assistive technology, and building software that improves lives.
+Welcome to the personal website and technical engineering blog of **Author**, a DeafBlind software engineer passionate about accessibility, Python development, assistive technology, and building software that improves lives.
 
-This project was built with **Next.js 15 (App Router)** and **Tailwind CSS**, migrating all **16 blog posts** originally published on WordPress at [miriamsoftwareengineer.code.blog](https://miriamsoftwareengineer.code.blog/).
+This project was built with **Next.js 15 (App Router)** and **Tailwind CSS**, migrating all **16 blog posts** originally published on WordPress at the original WordPress blog.
 
 ---
 
@@ -43,7 +43,7 @@ This project was built with **Next.js 15 (App Router)** and **Tailwind CSS**, mi
 | 13 | Encouragement | January 29, 2022 | Reflections, Advocacy, Personal Journey | `encouragement` |
 | 14 | Product Lifecycle | January 29, 2022 | Product Management, Software Lifecycle | `product-lifecycle` |
 | 15 | Challenges in Developing a YouTube Transcript Web Application | January 28, 2022 | Projects, Python & Flask, Debugging | `challenges-youtube-transcript` |
-| 16 | About Me | January 17, 2022 | About Miriam, Accessibility, Assistive Tech | `about-me` |
+| 16 | About Me | January 17, 2022 | About Me, Accessibility, Assistive Tech | `about-me` |
 
 ---
 
@@ -60,7 +60,7 @@ git add .
 git commit -m "Migrate 16 blog posts from WordPress to Next.js personal website"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR-USERNAME/miriam-personal-website.git
+git remote add origin https://github.com/YOUR-USERNAME/personal-website.git
 
 # Push to main branch
 git branch -M main
@@ -118,7 +118,7 @@ aliases: []
 categories: ["Accessibility", "Python"]
 readingTime: "4 min read"
 originalUrl: ""
-author: "Miriam"
+author: "Author"
 excerpt: "A brief summary of your post."
 ---
 

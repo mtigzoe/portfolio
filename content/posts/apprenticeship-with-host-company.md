@@ -6,8 +6,8 @@ slug: "apprenticeship-with-host-company"
 aliases: []
 categories: ["Career & Mentorship", "Apprenticeship", "Community"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/02/14/apprenticeship-with-host-company/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I am apprenticing with my host company, Worthwhile through the Develop Carolina program since January 2022. I have had a great experience with Worthwhile. My assigned mentor is very knowledgeable and helpful that I recei..."
 ---
 

@@ -4,7 +4,7 @@ import { BLOG_POSTS } from '@/lib/postsData';
 export const dynamic = 'force-static';
 
 export async function GET() {
-  const siteUrl = 'https://miriamsoftwareengineer.code.blog';
+  const siteUrl = (process.env.APP_URL || '').replace(/\/$/, '');
   const feedItems = BLOG_POSTS.map((post) => {
     return `
     <item>
@@ -25,9 +25,9 @@ export async function GET() {
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Miriam Lozneanu – Software Engineer</title>
+    <title>Software Engineering Blog</title>
     <link>${siteUrl}</link>
-    <description>Personal website and engineering blog of Miriam Lozneanu, DeafBlind software engineer.</description>
+    <description>Engineering blog by a DeafBlind software engineer.</description>
     <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     ${feedItems}

@@ -9,7 +9,6 @@ import {
   ArrowLeft,
   ArrowRight,
   Tag,
-  ExternalLink,
   Share2,
   BookOpen,
 } from 'lucide-react';
@@ -49,11 +48,11 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
     title: post.title,
     description: post.excerpt,
     openGraph: {
-      title: `${post.title} | Miriam Lozneanu`,
+      title: `${post.title} | Software Engineering Blog`,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
-      authors: ['Miriam Lozneanu'],
+      authors: ['Author'],
       tags: post.categories,
     },
   };
@@ -113,7 +112,7 @@ export default async function SinglePostPage({ params }: PostPageProps) {
         {/* Metadata Bar */}
         <div className="flex flex-wrap items-center gap-4 text-xs sm:text-sm text-stone-500 dark:text-zinc-400 pt-2">
           <span className="font-semibold text-stone-800 dark:text-zinc-200">
-            By Miriam Lozneanu
+            By Author
           </span>
           <span>&bull;</span>
           <time dateTime={post.date} className="flex items-center gap-1.5 font-mono">
@@ -135,34 +134,14 @@ export default async function SinglePostPage({ params }: PostPageProps) {
         dangerouslySetInnerHTML={{ __html: post.contentHtml }}
       />
 
-      {/* Original Source Reference Banner */}
-      <div className="p-4 rounded-xl border border-stone-200 dark:border-zinc-800 bg-stone-100/60 dark:bg-zinc-900/60 text-xs sm:text-sm text-stone-600 dark:text-zinc-400 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-        <div>
-          <span className="font-semibold text-stone-800 dark:text-zinc-200">
-            WordPress Archive Source:
-          </span>{' '}
-          Original post published on WordPress.
-        </div>
-        <a
-          href={post.originalUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 font-semibold text-amber-700 dark:text-amber-400 hover:underline shrink-0"
-        >
-          <span>View on miriamsoftwareengineer.code.blog</span>
-          <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-        </a>
-      </div>
-
       {/* Author Bio Box */}
       <div className="border border-stone-200 dark:border-zinc-800 rounded-xl p-6 bg-white dark:bg-zinc-900 flex flex-col sm:flex-row gap-5 items-start sm:items-center">
         <div className="w-14 h-14 rounded-xl bg-stone-900 text-stone-100 flex flex-col items-center justify-center font-mono font-bold shrink-0">
-          <span className="text-sm">ML</span>
-          <span className="text-[10px] text-amber-300">⠍⠇</span>
+          <span className="text-sm">SE</span>
         </div>
         <div className="space-y-1">
           <h3 className="font-serif font-bold text-lg text-stone-900 dark:text-zinc-100">
-            Written by Miriam Lozneanu
+            Written by Author
           </h3>
           <p className="text-sm text-stone-600 dark:text-zinc-400 leading-relaxed">
             DeafBlind computer programmer and software engineer. Writing code using a refreshable

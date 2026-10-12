@@ -4,10 +4,10 @@ date: "2022-01-17T04:25:08+00:00"
 formattedDate: "January 17, 2022"
 slug: "about-me"
 aliases: []
-categories: ["About Miriam", "Accessibility", "Assistive Tech"]
+categories: ["About Me", "Accessibility", "Assistive Tech"]
 readingTime: "1 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/01/17/about-me/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "I am a deaf and blind computer programmer and use my refreshable Braille display to read and access all information online. It is like a keyboard and allows me to be successful in writing programs. I am motivated to help..."
 ---
 

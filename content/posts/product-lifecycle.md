@@ -6,8 +6,8 @@ slug: "product-lifecycle"
 aliases: []
 categories: ["Product Management", "Software Lifecycle", "Learning"]
 readingTime: "2 min read"
-originalUrl: "https://miriamsoftwareengineer.code.blog/2022/01/29/product-lifecycle/"
-author: "Miriam Lozneanu"
+originalUrl: ""
+author: "Author"
 excerpt: "After two-hour lecture, I would like to share what I learned about the topics in Product Lifecycle. Five topics include Product Market Fit, stages of a company, product lifecycle stages, inter-team coordination and intra..."
 ---
 

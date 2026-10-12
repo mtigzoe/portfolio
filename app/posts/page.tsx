@@ -7,7 +7,7 @@ import { BookOpen, Cpu, Terminal, CheckCircle2 } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'All Blog Posts (16)',
   description:
-    'Complete archive of all 16 technical blog posts written by Miriam Lozneanu, covering accessibility, Python development, testing with pytest, and assistive technology.',
+    'Complete archive of all 16 technical blog posts, covering accessibility, Python development, testing with pytest, and assistive technology.',
 };
 
 export default function PostsPage() {

@@ -74,17 +74,14 @@ export function Navbar() {
             <Link
               href="/"
               className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-stone-500 rounded-lg p-1"
-              aria-label="Miriam Lozneanu, Blog Posts"
+              aria-label="Software Engineering Blog, Blog Posts"
             >
               <div className="w-11 h-11 rounded-lg bg-stone-900 text-stone-100 flex flex-col items-center justify-center font-mono text-xs font-bold border border-stone-700 shadow-xs group-hover:scale-105 transition-transform">
-                <span>ML</span>
-                <span className="text-[9px] text-amber-300 tracking-wider" title="Braille for ML">
-                  ⠍⠇
-                </span>
+                <span>SE</span>
               </div>
               <div className="flex flex-col">
                 <span className="font-serif font-bold text-lg tracking-tight flex items-center gap-2">
-                  Miriam Lozneanu
+                  Software Engineering Blog
                 </span>
                 <span className="text-xs text-stone-500 dark:text-zinc-400 font-medium tracking-normal">
                   DeafBlind Software Engineer

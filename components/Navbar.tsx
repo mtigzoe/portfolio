@@ -28,7 +28,6 @@ export function Navbar() {
     { href: '/posts', label: 'Blog Posts (16)' },
     { href: '/projects', label: 'Projects' },
     { href: '/about', label: 'About Miriam' },
-    { href: '/github-guide', label: 'GitHub Setup' },
   ];
 
   const isActive = (href: string) => {

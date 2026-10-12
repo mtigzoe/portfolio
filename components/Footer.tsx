@@ -43,22 +43,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-stone-600 dark:text-zinc-400">
               <li>
                 <Link href="/" className="hover:text-stone-900 dark:hover:text-white transition-colors">
-                  Home
+                  All 16 Blog Posts
                 </Link>
               </li>
               <li>
-                <Link href="/posts" className="hover:text-stone-900 dark:hover:text-white transition-colors">
-                  All 16 Blog Posts
+                <Link href="/about" className="hover:text-stone-900 dark:hover:text-white transition-colors">
+                  About Miriam
                 </Link>
               </li>
               <li>
                 <Link href="/projects" className="hover:text-stone-900 dark:hover:text-white transition-colors">
                   Featured Projects
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-stone-900 dark:hover:text-white transition-colors">
-                  About Miriam & Setup
                 </Link>
               </li>
             </ul>

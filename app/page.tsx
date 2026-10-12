@@ -13,7 +13,6 @@ import {
   BookOpen,
   FolderGit2,
   CheckCircle2,
-  ExternalLink,
   Laptop,
 } from 'lucide-react';
 
@@ -62,17 +61,7 @@ export default function HomePage() {
             </p>
             <p>
               This website is my complete personal developer home and technical blog, containing all{' '}
-              <strong>16 original posts</strong> faithfully migrated from my WordPress blog (
-              <a
-                href="https://miriamsoftwareengineer.code.blog/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-700 dark:text-amber-400 font-semibold underline underline-offset-2 hover:opacity-80 inline-flex items-center gap-1"
-              >
-                miriamsoftwareengineer.code.blog
-                <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-              </a>
-              ), with full search and responsive reading tools.
+              <strong>16 original posts</strong> faithfully migrated from my WordPress blog.
             </p>
           </div>
 

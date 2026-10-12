@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: 'Engineering Projects',
   description:
-    'Key software projects engineered by Miriam Lozneanu, including the Accessible TI-89 Calculator, YouTube Transcript Extractor, and Autonomous Vehicle Interface concepts.',
+    'Key software projects engineered by Miriam, including the Accessible TI-89 Calculator, YouTube Transcript Extractor, and Autonomous Vehicle Interface concepts.',
 };
 
 export default function ProjectsPage() {
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
           Projects &amp; Technical Initiatives
         </h1>
         <p className="text-base sm:text-lg text-stone-600 dark:text-zinc-400 max-w-3xl mt-2">
-          These projects showcase Miriam Lozneanu’s journey as a DeafBlind software engineer, focusing
+          These projects showcase Miriam’s journey as a DeafBlind software engineer, focusing
           on accessible tooling, Python backend services, math calculation engines, and assistive
           hardware integration.
         </p>

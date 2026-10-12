@@ -18,7 +18,7 @@ export function Footer() {
                 ML
               </div>
               <span className="font-serif font-bold text-lg text-stone-900 dark:text-zinc-100">
-                Miriam Lozneanu
+                Miriam
               </span>
             </div>
             <p className="text-sm text-stone-600 dark:text-zinc-400 leading-relaxed max-w-md">
@@ -58,7 +58,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-stone-200 dark:border-zinc-800 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 dark:text-zinc-500 gap-4">
           <p>
-            &copy; {new Date().getFullYear()} Miriam Lozneanu. Migrated from WordPress to Next.js.
+            &copy; {new Date().getFullYear()} Miriam 
           </p>
           <p className="flex items-center gap-1.5">
             <span>Accessible by design</span>

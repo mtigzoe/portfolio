@@ -1,6 +1,6 @@
-# Miriam Lozneanu – Personal Website & Engineering Blog
+# Personal Website & Engineering Blog
 
-Welcome to the personal website and technical engineering blog of **Miriam Lozneanu**, a DeafBlind software engineer passionate about accessibility, Python development, assistive technology, and building software that improves lives.
+Welcome to the personal website and technical engineering blog of **Miriam**, a DeafBlind software engineer passionate about accessibility, Python development, assistive technology, and building software that improves lives.
 
 This project was built with **Next.js 15 (App Router)** and **Tailwind CSS**, migrating all **16 blog posts** originally published on WordPress at [miriamsoftwareengineer.code.blog](https://miriamsoftwareengineer.code.blog/).
 
@@ -118,7 +118,7 @@ aliases: []
 categories: ["Accessibility", "Python"]
 readingTime: "4 min read"
 originalUrl: ""
-author: "Miriam Lozneanu"
+author: "Miriam"
 excerpt: "A brief summary of your post."
 ---
 
@@ -129,6 +129,5 @@ Your content goes here!
 
 ## License & Credits
 
-- Content & Articles &copy; Miriam Lozneanu
-- Migrated from [miriamsoftwareengineer.code.blog](https://miriamsoftwareengineer.code.blog/)
+- Content & Articles &copy; mtigzoe
 

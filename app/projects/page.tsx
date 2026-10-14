@@ -1,4 +1,5 @@
 import React from 'react';
+import { ProjectDisclosure } from '@/components/ProjectDisclosure';
 import { Metadata } from 'next';
 import {
   Calculator,
@@ -100,30 +101,10 @@ export default function ProjectsPage() {
 
       {/* Projects List */}
       <div className="space-y-10">
-        {projects.map((proj) => {
-          const Icon = proj.icon;
+        {projects.map((proj, index) => {
           return (
-            <article
-              key={proj.id}
-              id={`project-${proj.id}`}
-              className="rounded-2xl border border-stone-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 sm:p-8 space-y-6 shadow-xs"
-            >
-              {/* Top Banner */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-100 dark:border-zinc-800 pb-4">
-                <div className="flex items-center gap-3">
-                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${proj.color}`}>
-                    <Icon className="w-6 h-6" aria-hidden="true" />
-                  </div>
-                  <div>
-                    <span className="text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-zinc-400">
-                      {proj.category}
-                    </span>
-                    <h2 className="text-xl sm:text-2xl font-serif font-bold text-stone-900 dark:text-zinc-100">
-                      {proj.title}
-                    </h2>
-                  </div>
-                </div>
-              </div>
+            <ProjectDisclosure key={proj.id} id={proj.id} title={proj.title} number={index + 1}>
+              <p className="text-sm font-semibold text-stone-500 dark:text-zinc-400">{proj.category}</p>
 
               {/* Summary */}
               <p className="text-base sm:text-lg text-stone-700 dark:text-zinc-300 leading-relaxed font-medium">
@@ -166,7 +147,7 @@ export default function ProjectsPage() {
                 </div>
               </div>
 
-            </article>
+            </ProjectDisclosure>
           );
         })}
       </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 type FontSize = 'normal' | 'large' | 'xlarge';
 type ThemeMode = 'light' | 'dark' | 'high-contrast';
@@ -64,12 +64,14 @@ export function AccessibilityProvider({ children }: { children: React.ReactNode 
     else handleSetThemeMode('light');
   };
 
-  const fontSizeClass =
-    fontSize === 'xlarge'
-      ? 'text-lg leading-relaxed md:text-xl'
-      : fontSize === 'large'
-      ? 'text-base leading-relaxed md:text-lg'
-      : 'text-sm leading-normal md:text-base';
+  useEffect(() => {
+    const root = document.documentElement;
+    const previousSize = root.style.fontSize;
+    root.style.fontSize = fontSize === 'xlarge' ? '150%' : fontSize === 'large' ? '125%' : '100%';
+    return () => {
+      root.style.fontSize = previousSize;
+    };
+  }, [fontSize]);
 
   const themeClasses =
     themeMode === 'dark'
@@ -90,7 +92,7 @@ export function AccessibilityProvider({ children }: { children: React.ReactNode 
     >
       <div
         id="app-root"
-        className={`min-h-screen transition-colors duration-200 ${themeClasses} ${fontSizeClass}`}
+        className={`min-h-screen transition-colors duration-200 ${themeClasses}`}
       >
         {children}
       </div>

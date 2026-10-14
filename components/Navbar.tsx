@@ -100,6 +100,7 @@ export function Navbar() {
                 <button
                   type="button"
                   onClick={() => setFontSize('normal')}
+                  aria-pressed={fontSize === 'normal'}
                   className={`px-2 py-1 rounded transition-colors ${
                     fontSize === 'normal'
                       ? 'bg-stone-900 text-white dark:bg-zinc-200 dark:text-zinc-900'
@@ -113,6 +114,7 @@ export function Navbar() {
                 <button
                   type="button"
                   onClick={() => setFontSize('large')}
+                  aria-pressed={fontSize === 'large'}
                   className={`px-2 py-1 rounded transition-colors text-sm ${
                     fontSize === 'large'
                       ? 'bg-stone-900 text-white dark:bg-zinc-200 dark:text-zinc-900'
@@ -126,6 +128,7 @@ export function Navbar() {
                 <button
                   type="button"
                   onClick={() => setFontSize('xlarge')}
+                  aria-pressed={fontSize === 'xlarge'}
                   className={`px-2 py-1 rounded transition-colors text-base font-bold ${
                     fontSize === 'xlarge'
                       ? 'bg-stone-900 text-white dark:bg-zinc-200 dark:text-zinc-900'
@@ -201,6 +204,7 @@ export function Navbar() {
                 <button
                   type="button"
                   onClick={() => setFontSize('normal')}
+                  aria-pressed={fontSize === 'normal'}
                   className={`px-3 py-1.5 rounded border ${
                     fontSize === 'normal' ? 'bg-stone-900 text-white' : 'bg-white text-stone-800'
                   }`}
@@ -210,6 +214,7 @@ export function Navbar() {
                 <button
                   type="button"
                   onClick={() => setFontSize('large')}
+                  aria-pressed={fontSize === 'large'}
                   className={`px-3 py-1.5 rounded border ${
                     fontSize === 'large' ? 'bg-stone-900 text-white' : 'bg-white text-stone-800'
                   }`}
@@ -219,6 +224,7 @@ export function Navbar() {
                 <button
                   type="button"
                   onClick={() => setFontSize('xlarge')}
+                  aria-pressed={fontSize === 'xlarge'}
                   className={`px-3 py-1.5 rounded border ${
                     fontSize === 'xlarge' ? 'bg-stone-900 text-white' : 'bg-white text-stone-800'
                   }`}

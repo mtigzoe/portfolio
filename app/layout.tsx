@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { AccessibilityProvider } from '@/components/AccessibilityProvider';
 import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'About',
@@ -42,7 +41,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
             {children}
           </main>
-          <Footer />
         </AccessibilityProvider>
       </body>
     </html>

@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark-theme, .dark-theme *, .high-contrast-theme, .high-contrast-theme *));
+
 @layer base {
   :focus-visible {
     outline: 2px solid #f59e0b;

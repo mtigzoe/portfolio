@@ -37,7 +37,7 @@ export function AccessibilityProvider({ children }: { children: React.ReactNode 
         }
       } catch {}
     }
-    return 'light';
+    return 'dark';
   });
 
   const handleSetFontSize = (size: FontSize) => {

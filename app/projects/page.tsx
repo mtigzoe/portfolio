@@ -5,7 +5,6 @@ import {
   Calculator,
   Youtube,
   Car,
-  Award,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -63,22 +62,6 @@ export default function ProjectsPage() {
         'Proposed a software-based remote control interface delivering bidirectional communication between the vehicle and a DeafBlind passenger through standard assistive protocols and tactile feedback.',
       testingApproach:
         'Continuous user persona research and accessibility requirements mapping based on lived DeafBlind experience.',
-    },
-    {
-      id: 'develop-carolina',
-      title: 'Apprenticeship at Worthwhile (Develop Carolina)',
-      category: 'Professional Experience',
-      icon: Award,
-      color: 'text-emerald-700 dark:text-emerald-400 bg-emerald-100 dark:bg-emerald-950/70',
-      summary:
-        'Professional software engineering apprenticeship: practicing agile workflows, database querying with SQL, pair programming, and remote work discipline.',
-      techStack: ['Python', 'MySQL', 'SQL Queries', 'CSV Processing', 'Git & GitHub', 'Agile/Scrum'],
-      problem:
-        'Navigating real-world client requirements, vague initial project specifications, and inaccessible pair programming platforms like CodeWars with screen readers.',
-      solution:
-        'Established structured communication habits with mentors, refined requirements through iterative documentation, extracted database records into CSV reports, and established accessible pair-programming workflows.',
-      testingApproach:
-        'Requirement verification cycles and iterative specification reviews with engineering supervisors.',
     },
   ];
 

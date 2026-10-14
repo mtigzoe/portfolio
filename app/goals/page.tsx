@@ -83,7 +83,7 @@ export default function GoalsPage() {
 
                 <div className="p-5 rounded-xl bg-stone-50 dark:bg-zinc-950/50 border border-stone-200/80 dark:border-zinc-800 space-y-2">
                   <h3 className="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
-                    The Engineering Solution
+                    Solution
                   </h3>
                   <p className="text-sm text-stone-600 dark:text-zinc-400 leading-relaxed">
                     {proj.solution}

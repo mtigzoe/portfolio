@@ -1,20 +1,14 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import {
   Calculator,
   Youtube,
   Car,
   Award,
-  Terminal,
-  Code2,
-  CheckCircle2,
-  ArrowRight,
-  BookOpen,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Engineering Projects',
+  title: 'Projects',
   description:
     'Software engineering projects, including the Accessible TI-89 Calculator, YouTube Transcript Extractor, and Autonomous Vehicle Interface concepts.',
 };
@@ -36,13 +30,6 @@ export default function ProjectsPage() {
         'Engineered a web application powered by a Python backend capable of evaluating algebraic equations, derivatives, and integrals, returning structured textual outputs that can be read seamlessly on refreshable Braille displays and with screen readers.',
       testingApproach:
         'Implemented automated testing with pytest, utilizing custom test fixtures for real numbers and statistics, alongside deterministic unit tests for derivatives and integrals.',
-      relatedPostSlugs: [
-        { title: 'Umbrella Project Overview', slug: 'umbrella-project' },
-        { title: 'Choosing Tech: Python, Flask & Vue.js', slug: 'what-programming-languages-have-you-chosen-for-your-umbrella-project' },
-        { title: 'Making My Plans: Backend Architecture', slug: 'making-my-plans' },
-        { title: 'Testing my Application with pytest', slug: 'testing-my-application' },
-        { title: 'Defining Features with Agile User Stories', slug: 'defining-features' },
-      ],
     },
     {
       id: 'youtube-transcript',
@@ -59,10 +46,6 @@ export default function ProjectsPage() {
         'Developed a Python Flask web application. Users paste a YouTube video link, and the backend extracts the full transcript via the YouTube API, presenting it as clean, readable text on an accessible HTML page that can be panned at the user’s own reading speed on a Braille display.',
       testingApproach:
         'Debugged third-party library breakages when YouTube altered its dislike count API in November 2021, directly patching module source code to restore transcript retrieval functionality.',
-      relatedPostSlugs: [
-        { title: 'Challenges in Developing YouTube Transcript Web App', slug: 'challenges-youtube-transcript' },
-        { title: 'About Me: Assistive Video Reading', slug: 'about-me' },
-      ],
     },
     {
       id: 'autonomous-vehicle-remote',
@@ -79,10 +62,6 @@ export default function ProjectsPage() {
         'Proposed a software-based remote control interface delivering bidirectional communication between the vehicle and a DeafBlind passenger through standard assistive protocols and tactile feedback.',
       testingApproach:
         'Continuous user persona research and accessibility requirements mapping based on lived DeafBlind experience.',
-      relatedPostSlugs: [
-        { title: 'About Me: Vision for Driverless Cars', slug: 'about-me' },
-        { title: 'Product Lifecycle and User Needs', slug: 'product-lifecycle' },
-      ],
     },
     {
       id: 'develop-carolina',
@@ -99,12 +78,6 @@ export default function ProjectsPage() {
         'Established structured communication habits with mentors, refined requirements through iterative documentation, extracted database records into CSV reports, and established accessible pair-programming workflows.',
       testingApproach:
         'Requirement verification cycles and iterative specification reviews with engineering supervisors.',
-      relatedPostSlugs: [
-        { title: 'Apprenticeship with Host Company', slug: 'apprenticeship-with-host-company' },
-        { title: 'Crucial Communications with Supervisors', slug: 'crucial-communications' },
-        { title: 'Accessibility on Pair Programming', slug: 'accessibility-on-pair-programming' },
-        { title: 'Work From Home Daily Routine', slug: 'work-from-home' },
-      ],
     },
   ];
 
@@ -116,7 +89,7 @@ export default function ProjectsPage() {
           Portfolio &amp; Engineering Case Studies
         </span>
         <h1 className="text-3xl sm:text-4xl font-serif font-bold text-stone-900 dark:text-zinc-100 mt-2">
-          Projects &amp; Technical Initiatives
+          Projects
         </h1>
         <p className="text-base sm:text-lg text-stone-600 dark:text-zinc-400 max-w-3xl mt-2">
           These projects showcase my journey as a DeafBlind software engineer, focusing
@@ -193,26 +166,6 @@ export default function ProjectsPage() {
                 </div>
               </div>
 
-              {/* Related Blog Posts */}
-              <div className="pt-2 border-t border-stone-100 dark:border-zinc-800">
-                <h3 className="text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-zinc-400 mb-3 flex items-center gap-1.5">
-                  <BookOpen className="w-4 h-4" /> Related Blog Posts:
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {proj.relatedPostSlugs.map((rp) => (
-                    <Link
-                      key={rp.slug}
-                      href={`/posts/${rp.slug}`}
-                      className="group p-3 rounded-lg border border-stone-200 dark:border-zinc-800 hover:border-amber-400 dark:hover:border-amber-600 bg-stone-50/50 dark:bg-zinc-800/40 text-xs font-medium text-stone-800 dark:text-zinc-200 flex items-center justify-between transition-colors"
-                    >
-                      <span className="group-hover:text-amber-600 dark:group-hover:text-amber-400 truncate mr-2">
-                        {rp.title}
-                      </span>
-                      <ArrowRight className="w-3.5 h-3.5 text-stone-400 group-hover:text-amber-600 dark:group-hover:text-amber-400 shrink-0" />
-                    </Link>
-                  ))}
-                </div>
-              </div>
             </article>
           );
         })}

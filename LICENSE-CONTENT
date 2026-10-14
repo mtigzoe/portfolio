@@ -1,0 +1,24 @@
+Copyright (c) 2026 Mtigzoe. All rights reserved.
+
+The MIT License in LICENSE applies to the website's software code, not to
+Mtigzoe's articles, personal biography, project and goal descriptions, or
+original images and other creative content.
+
+Reserved content includes:
+- Article text and associated editorial content in content/posts/,
+  data/posts_clean.json, and lib/postsData.ts.
+- Personal biography, project descriptions, goal descriptions, and other
+  original editorial text embedded in app/ or components/.
+- Original images, illustrations, and other creative media, wherever stored.
+
+These exclusions apply to the content itself, including copies embedded in
+source files, generated HTML, feeds, or other output. Software logic and
+templates in files that also contain reserved content remain MIT-licensed.
+
+Except as permitted by applicable law, separate written permission is required
+to reproduce, redistribute, adapt, or commercially reuse the reserved content.
+This notice does not limit statutory exceptions or permissions granted under
+GitHub's applicable terms of service, including viewing and forking.
+
+Third-party materials remain subject to their respective licenses and rights.
+No rights to third-party materials are granted by this notice.

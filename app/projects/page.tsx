@@ -4,13 +4,12 @@ import { Metadata } from 'next';
 import {
   Calculator,
   Youtube,
-  Car,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Projects',
   description:
-    'Software engineering projects, including the Accessible TI-89 Calculator, YouTube Transcript Extractor, and Autonomous Vehicle Interface concepts.',
+    'Software engineering projects, including the Accessible TI-89 Calculator, YouTube Transcript Extractor.',
 };
 
 export default function ProjectsPage() {
@@ -46,22 +45,6 @@ export default function ProjectsPage() {
         'Developed a Python Flask web application. Users paste a YouTube video link, and the backend extracts the full transcript via the YouTube API, presenting it as clean, readable text on an accessible HTML page that can be panned at the user’s own reading speed on a Braille display.',
       testingApproach:
         'Debugged third-party library breakages when YouTube altered its dislike count API in November 2021, directly patching module source code to restore transcript retrieval functionality.',
-    },
-    {
-      id: 'autonomous-vehicle-remote',
-      title: 'Accessible Autonomous Vehicle Interface Concept',
-      category: 'Future Concept',
-      icon: Car,
-      color: 'text-indigo-700 dark:text-indigo-400 bg-indigo-100 dark:bg-indigo-950/70',
-      summary:
-        'Research and conceptual architecture for an accessible software remote enabling DeafBlind individuals to navigate driverless vehicles independently.',
-      techStack: ['Mobile Web', 'Accessibility APIs', 'Haptic Feedback', 'Bluetooth Braille Protocol'],
-      problem:
-        'Autonomous vehicles offer independence to non-drivers, but existing prototypes often rely on touchscreen displays or audible alerts that exclude individuals who are both deaf and blind.',
-      solution:
-        'Proposed a software-based remote control interface delivering bidirectional communication between the vehicle and a DeafBlind passenger through standard assistive protocols and tactile feedback.',
-      testingApproach:
-        'Continuous user persona research and accessibility requirements mapping based on lived DeafBlind experience.',
     },
   ];
 

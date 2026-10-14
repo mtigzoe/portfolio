@@ -28,7 +28,7 @@ export function Navbar() {
     { href: '/posts', label: 'Blog Posts' },
     { href: '/projects', label: 'Projects' },
     { href: '/goals', label: 'Goals' },
-    { href: '/coding-style', label: 'Coding Style' },
+    { href: '/coding-style', label: 'How I Code' },
   ];
 
   const isActive = (href: string) => {

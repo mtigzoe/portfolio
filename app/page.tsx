@@ -32,6 +32,11 @@ export default function AboutPage() {
           reflections on accessibility.
         </p>
       </div>
+      <p>
+        <a href="https://github.com/mtigzoe" className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
+          Visit my GitHub profile
+        </a>
+      </p>
       <div className="flex flex-wrap gap-6">
         <Link href="/posts" className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
           Read blog posts

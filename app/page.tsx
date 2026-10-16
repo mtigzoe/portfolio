@@ -33,8 +33,8 @@ export default function AboutPage() {
         </p>
       </div>
       <p>
-        <a href="https://github.com/mtigzoe" className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
-          Visit my GitHub profile
+        <a href="https://github.com/mtigzoe" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
+          Visit my GitHub profile (opens in a new tab)
         </a>
       </p>
       <div className="flex flex-wrap gap-6">
